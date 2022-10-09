@@ -21,7 +21,12 @@
 
 .body-style{
     background-color: gray;
-    margin-top: 50px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    display: block;
+    margin-right: 0px;
+	margin-left: 0px;
+    margin-bottom: 0px;
 }
 
 .text-class{
@@ -75,6 +80,87 @@
 .btn-forget-pass{
     font-size: 10pt;
     color: gray;
-    margin-left: 260px;
-    margin-top: 50px;
+    margin-left: 255px;
+    /* margin-top: 50px; */
+}
+
+
+.footer { 
+	clear:both;
+	width: auto;
+	color:#888;  
+	font-size:90%;
+	background: #272727;
+	border-top: 1px solid rgb(65, 65, 65); 
+	text-align:center; 
+	margin-top: 175px;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding: 10px 10px 10px 10px;
+}
+
+.padding{
+    text-align: center;
+    min-height: calc(100vh - 526px - 60px);
+    box-sizing: border-box;
+    color: rgb(167, 165, 165);
+}
+
+.form-group{
+    width: 177px;
+    margin-right: 40px;
+    /* margin-top: 40px; */
+}
+
+.text-input{
+    background-color: rgb(54, 52, 52);
+    height: 25px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    border: 1px solid;
+    margin-top: 15px;
+}
+
+.pic-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.chkb-save{
+    font-size: 8pt;
+    color: gray;
+    margin-top: 10px;
+}
+
+.location{
+    margin-top: 10px;
+}
+.chk-group{
+    margin-left: 87.55px;
+    text-align: center;
+    height: 27px;
+}
+
+.btn{
+    margin-left: 77px;
+    margin-top: 15px;
+    width: 100px;
+    display:  block;
+    font-size: 14px;
+    height: 25px;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+}
+
+.btn-primary{
+    background-color: rgb(59, 59, 202);
+    color: white;
+} 
+
+.div-forget-pass{
+margin-top: 10px;
 }
