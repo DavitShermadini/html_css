@@ -1,0 +1,80 @@
+
+.auth-form-container{
+    width: 440px;
+    min-height: 265px;
+    /* border: 1px solid rgb(247, 18, 18); */
+    margin: auto;
+    /* padding: 15px; */
+    box-sizing: border-box;
+    background-color: rgb(54, 52, 52);
+}
+
+.auth-form-header-container{
+    width: 440px;
+    min-height: 25px;
+    margin: auto;
+    /* padding: 15px; */
+    box-sizing: border-box;
+    background-color: rgb(54, 52, 52);
+}
+
+
+.body-style{
+    background-color: gray;
+    margin-top: 50px;
+}
+
+.text-class{
+    background-color: rgb(59, 59, 202);
+    color: white;
+    margin: auto;
+    width: 440px;
+    min-height: 40px ;
+    box-sizing: border-box;
+    /* padding: 15px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-register{
+    font-size: 10pt;
+    padding-top: 10px;
+    padding-right: 40px;
+    color: white;
+    /* text-decoration: none; */
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.btn-register:hover{
+    text-decoration: underline;
+}
+
+.lbl-authorize{
+    padding-left: 20px;
+    padding-top: 5px;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.image{
+    width: 150px;
+    height: 150px;
+    padding-left: 40px;
+}
+
+.line{
+    width: 360px;
+    height: 2px;
+    border: 1px;
+    background-color: grey;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.btn-forget-pass{
+    font-size: 10pt;
+    color: gray;
+    margin-left: 260px;
+    margin-top: 50px;
+}
